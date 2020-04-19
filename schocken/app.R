@@ -65,7 +65,7 @@ ui <- fluidPage(
         
     sidebarPanel(
    # Player 1 Control Panel
-    div(style="margin-bottom:10px"),
+ #   div(style="margin-bottom:10px"),
     fluidRow(column(3,actionButton("roll1", "Würfeln!"),
                     actionButton("unveil1", "Aufdecken!")), 
     #keep Die 1-3
@@ -129,9 +129,8 @@ ui <- fluidPage(
    
    mainPanel(
        # credits
-       tags$a(href="https://commons.wikimedia.org/wiki/Category:Dice_faces#/", "Dice Images"),
-       "by Nanami Kamimura and Handige Harry, licensed under CC BY-SA 4.0",
-       div(style="margin-bottom:5px"),
+       #tags$a(href="https://commons.wikimedia.org/wiki/Category:Dice_faces#/", "Dice Images"),"by Nanami Kamimura and Handige Harry, licensed under CC BY-SA 4.0",
+       div(style="margin-bottom:20px"),
        
        #Player 1 Dices + Points
        fluidRow(column(1, uiOutput("dice11")), column(1, uiOutput("dice12")), column(1, uiOutput("dice13")),
