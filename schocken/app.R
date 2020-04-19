@@ -20,7 +20,7 @@ B = matrix(data = rep(FALSE, 18), ncol = 3)
 P = rep(0,6)
 
 
-# Pictures of Dices
+# Pictures of dice
 pics = c('Alea_1.png', 'Alea_2.png', 'Alea_3.png', 'Alea_4.png', 'Alea_5.png', 'Alea_6.png', 'Alea_0.png')
 
 
@@ -41,7 +41,7 @@ roll = function(user_id, input){
 }
 
 
-# unveil dices
+# unveil dice
 unveil = function(user_id){
     B[user_id, 1] <<- TRUE
     B[user_id, 2] <<- TRUE
@@ -132,32 +132,32 @@ ui <- fluidPage(
        #tags$a(href="https://commons.wikimedia.org/wiki/Category:Dice_faces#/", "Dice Images"),"by Nanami Kamimura and Handige Harry, licensed under CC BY-SA 4.0",
        div(style="margin-bottom:20px"),
        
-       #Player 1 Dices + Points
+       #Player 1 dice + Points
        fluidRow(column(1, uiOutput("dice11")), column(1, uiOutput("dice12")), column(1, uiOutput("dice13")),
                 column(3, ""),column(1, uiOutput("pts1"))),
        div(style="margin-bottom:70px"),
        
-       #Player 2 Dices + Points
+       #Player 2 dice + Points
        fluidRow(column(1, uiOutput("dice21")), column(1, uiOutput("dice22")), column(1, uiOutput("dice23")),
                 column(3, ""),column(1, uiOutput("pts2"))),
        div(style="margin-bottom:70px"),
        
-       #Player 3 Dices + Points
+       #Player 3 dice + Points
        fluidRow(column(1, uiOutput("dice31")), column(1, uiOutput("dice32")), column(1, uiOutput("dice33")),
                 column(3, ""),column(1, uiOutput("pts3"))),
        div(style="margin-bottom:70px"),
        
-       #Player 4 Dices + Points
+       #Player 4 dice + Points
        fluidRow(column(1, uiOutput("dice41")), column(1, uiOutput("dice42")), column(1, uiOutput("dice43")),
                 column(3, ""),column(1, uiOutput("pts4"))),
        div(style="margin-bottom:70px"),
        
-       #Player 5 Dices + Points
+       #Player 5 dice + Points
        fluidRow(column(1, uiOutput("dice51")), column(1, uiOutput("dice52")), column(1, uiOutput("dice53")),
                 column(3, ""),column(1, uiOutput("pts5"))),
        div(style="margin-bottom:70px"),
        
-       #Player 6 Dices + Points
+       #Player 6 dice + Points
        fluidRow(column(1, uiOutput("dice61")), column(1, uiOutput("dice62")), column(1, uiOutput("dice63")),
                 column(3, ""),column(1, uiOutput("pts6")))
        
