@@ -3,7 +3,7 @@
 This is a online multi-player implementation of the german dice game Schocken.
 It runs using R Shiny.
 
-You can either deploy it yourself e.g. on [shinyapps.io](https://www.shinyapps.io/).
+You can deploy it yourself e.g. on [shinyapps.io](https://www.shinyapps.io/).
 
 
 ## Manual
