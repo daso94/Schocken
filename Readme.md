@@ -5,7 +5,7 @@ It runs using R Shiny.
 
 You can deploy it yourself e.g. on [shinyapps.io](https://www.shinyapps.io/).
 
-![](Screenshot.png)
+![](Screenshot.PNG)
 
 
 ## Manual
