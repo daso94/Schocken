@@ -8,11 +8,11 @@ You can either deploy it yourself e.g. on [shinyapps.io](https://www.shinyapps.i
 
 ## Manual
 
-To roll the dices click "Würfeln!"
+To roll the dice click "Würfeln!"
 
-To unveil the dices click "Aufdecken!"
+To unveil the dice click "Aufdecken!"
 
-To keep a dice click the corresponding checkbox.
+To keep a die click the corresponding checkbox.
 
 You can insert the "Bierdeckel" - Points in the field "Punkte".
 
