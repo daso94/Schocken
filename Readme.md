@@ -18,3 +18,4 @@ To keep a die click the corresponding checkbox.
 
 You can insert the "Bierdeckel" - Points in the field "Punkte".
 
+Note: the left panel is only visible to yourself, the right panel (dice, points, throws) is synced between all users!
